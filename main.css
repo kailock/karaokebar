@@ -1,0 +1,103 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+
+body {
+    background: #757F9A; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #757F9A , #D7DDE8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #757F9A , #D7DDE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+form {
+    margin-bottom: 5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#header {
+    padding-top: 3em;
+    padding-bottom: 5em;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 3px 75px #888888;
+    margin-bottom: 5em;
+}
+
+input[type="text"] {
+    width: 60%;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 2em;
+    outline: 0;
+    padding: 7px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+span {
+    display: block;
+    padding: 3px;
+}
+
+#results {
+    width: 75%;
+    height: 100px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+
+
+@media screen and (min-width: 992px) {
+    #header {
+        background-image: url("img/karaokebarbanner.jpg");
+        background-position: right center;
+        background-repeat: no-repeat;
+        text-align: left;
+    }
+
+    #header h1 {
+        font-size: 4em;
+    }
+
+    input[type="text"] {
+        width: 30%;
+    }
+
+    #results {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #header {
+        background-image: url("img/karaoke-lg.jpg");
+    }
+
+    input[type="text"] {
+        width: 15%;
+    }
+
+    #results {
+        width: 20%;
+    }
+}
