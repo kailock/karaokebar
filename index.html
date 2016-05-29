@@ -45,8 +45,8 @@
         </div>
     </div>
 
-    <form>
-        <h4>Search Songs:</h4>
+    <form id="song-form">
+        <!--<h4>Search Songs:</h4>
         <input type="text" name="song" placeholder="Enter song title">
         <input name="song-submit" type="button" class="btn btn-default btn-xs" value="Submit">
 
@@ -60,8 +60,52 @@
 
         <h4>Search Vendors:</h4>
         <input type="text" name="vendor" placeholder="Enter vendor name">
-        <input name="vendor-submit" type="button" class="btn btn-default btn-xs" value="Submit">
+        <input name="vendor-submit" type="button" class="btn btn-default btn-xs" value="Submit">-->
+        <h3>Enter New Song:</h3>
+        <div>
+            <label for="songtitle">Song</label>
+            <input type="text" id="songtitle" placeholder="Enter song title">
+        </div>
+
+        <div>
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" placeholder="Enter song genre">
+        </div>
+
+        <div>
+            <label for="album">Album</label>
+            <input type="text" id="album" placeholder="Enter album title">
+        </div>
+
+        <div>
+            <label for="artist">Artist</label>
+            <input type="text" id="artist" placeholder="Enter artist name">
+        </div>
+        <input name="song-submit" type="button" class="btn btn-primary btn-md" value="Submit Song">
+
     </form>
+
+    <form id="product-form">
+
+        <h3>Enter New Product:</h3>
+        <div>
+            <label for="product">Product</label>
+            <input type="text" id="product" placeholder="Enter product name">
+        </div>
+
+        <div>
+            <label for="prod-type">Type</label>
+            <input type="text" id="prod-type" placeholder="Specify product type (i.e. &#34;Beer&#34;)">
+        </div>
+
+        <div>
+            <label for="vendor">Vendor</label>
+            <input type="text" id="vendor" placeholder="Enter vendor name">
+        </div>
+        <input name="song-submit" type="button" class="btn btn-primary btn-md" value="Submit Product">
+
+    </form>
+
 
 
     <h4>Results: (from is-hay04.karaoke_bar)</h4>
