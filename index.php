@@ -12,32 +12,12 @@
 
     <!-- Custom code-->
     <link href = "main.css" rel="stylesheet" type = "text/css"/>
-    <link src = "scripts.js" type="text/javascript"/>
+    <script src = "scripts.js" type="text/javascript"></script>
 
     <?php
         include "functions.php";
     ?>
-    <!--<style>
-        body {
-            background: #757F9A; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to left, #757F9A , #D7DDE8); /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to left, #757F9A , #D7DDE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            text-align: center;
-        }
-        h1, h3 {
-            padding: 30px;
-        }
-        #results {
-            width: 50%;
-            height: 100px;
-            outline: black dotted thick;
-            background-color: white;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-    </style>-->
-   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+   
 </head>
     <body>
 
