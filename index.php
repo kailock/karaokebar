@@ -8,9 +8,15 @@
     <!-- imported libraries -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
 
     <!-- Custom code-->
     <link href = "main.css" rel="stylesheet" type = "text/css"/>
+    <link src = "scripts.js" type="text/javascript"/>
+
+    <?php
+        include "functions.php";
+    ?>
     <!--<style>
         body {
             background: #757F9A; /* fallback for old browsers */
