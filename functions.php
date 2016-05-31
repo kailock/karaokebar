@@ -1,6 +1,6 @@
 <?php
 
-$dbConnect = new PDO("sqlsrv:Server=http://www.ischool.uw.edu/is-hay04;Database=karaoke_bar", "info445", "GoHuskies!");
+$dbConnect = new PDO("sqlsrv:Server=http://Is-hay04.ischool.uw.edu;Database=karaoke_bar", "info445", "GoHuskies!");
 
 function insertCustomer() {
 	$first = $_POST['first'];
